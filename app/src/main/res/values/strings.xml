@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">20230122-MoinuddinAhmad-NYCSchools</string>
+    <string name="location">Location: </string>
+    <string name="phoneNumber">Phone Number: </string>
+    <string name="schoolEmail">School Email: </string>
+    <string name="schoolDirectoryError">Oops, something went wrong. Please try again later</string>
+    <string name="schoolOverview">Overview</string>
+    <string name="satResults">SAT Results</string>
+    <string name="loadIng">Loading</string>
+    <string name="numOfSatTestTakers">Num of SAT Test Takers: </string>
+    <string name="satCriticalReadingAvgScore">SAT Critical Reading Avg Score: </string>
+    <string name="satMathAvgScore">SAT Math Avg Score: </string>
+    <string name="satWritingAvgScore">SAT Writing Avg Score: </string>
+    <string name="unknown">Unknown</string>
+</resources>

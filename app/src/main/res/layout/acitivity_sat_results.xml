@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/school_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal_700"
+        android:textSize="@dimen/schoolName_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/schoolOverview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schoolOverview"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/schoolInfo_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/school_name"/>
+
+    <TextView
+        android:id="@+id/school_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="@dimen/schoolDescription_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/schoolOverview"/>
+
+    <TextView
+        android:id="@+id/school_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/satResults"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/schoolInfo_size"
+        android:paddingTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/school_description"/>
+
+    <TextView
+        android:id="@+id/num_of_sat_test_takers_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/numOfSatTestTakers"
+        android:textColor="@color/black"
+        android:textSize="@dimen/schoolSatResults_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/school_score"/>
+
+    <TextView
+        android:id="@+id/numOfSatTestTakers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loadIng"
+        android:textColor="@color/black"
+        android:textSize="@dimen/schoolSatResults_size"
+        app:layout_constraintStart_toEndOf="@+id/num_of_sat_test_takers_header"
+        app:layout_constraintTop_toBottomOf="@+id/school_score"/>
+
+    <TextView
+        android:id="@+id/sat_critical_reading_avg_score_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/satCriticalReadingAvgScore"
+        android:textColor="@color/black"
+        android:textSize="@dimen/schoolSatResults_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numOfSatTestTakers"/>
+
+    <TextView
+        android:id="@+id/satCriticalReadingAvgScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loadIng"
+        android:textColor="@color/black"
+        android:textSize="@dimen/schoolSatResults_size"
+        app:layout_constraintStart_toEndOf="@+id/sat_critical_reading_avg_score_header"
+        app:layout_constraintTop_toBottomOf="@+id/numOfSatTestTakers"/>
+
+    <TextView
+        android:id="@+id/sat_math_avg_score_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/satMathAvgScore"
+        android:textColor="@color/black"
+        android:textSize="@dimen/schoolSatResults_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/satCriticalReadingAvgScore"/>
+
+    <TextView
+        android:id="@+id/satMathAvgScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loadIng"
+        android:textColor="@color/black"
+        android:textSize="@dimen/schoolSatResults_size"
+        app:layout_constraintStart_toEndOf="@+id/sat_math_avg_score_header"
+        app:layout_constraintTop_toBottomOf="@+id/satCriticalReadingAvgScore"/>
+
+    <TextView
+        android:id="@+id/sat_writing_avg_score_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/satWritingAvgScore"
+        android:textColor="@color/black"
+        android:textSize="@dimen/schoolSatResults_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/satMathAvgScore"/>
+
+    <TextView
+        android:id="@+id/satWritingAvgScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loadIng"
+        android:textColor="@color/black"
+        android:textSize="@dimen/schoolSatResults_size"
+        app:layout_constraintStart_toEndOf="@+id/sat_writing_avg_score_header"
+        app:layout_constraintTop_toBottomOf="@+id/satMathAvgScore"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

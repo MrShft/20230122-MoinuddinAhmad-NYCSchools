@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="schoolDirectoryName_size">22sp</dimen>
+    <dimen name="schoolDirectoryDescription_size">16sp</dimen>
+    <dimen name="schoolDirectory_error">32sp</dimen>
+    <dimen name="schoolName_size">30sp</dimen>
+    <dimen name="schoolInfo_size">22sp</dimen>
+    <dimen name="schoolDescription_size">18sp</dimen>
+    <dimen name="schoolSatResults_size">18sp</dimen>
+</resources>
